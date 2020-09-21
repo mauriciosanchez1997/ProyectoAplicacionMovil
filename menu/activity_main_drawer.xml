@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Inicio" />
+    <item android:title="Usuarios">
+        <menu>
+            <item
+                    android:id="@+id/nav_registro"
+                    android:icon="@android:drawable/ic_menu_add"
+                    android:title="Registrar Usuario" />
+            <item
+                    android:id="@+id/nav_consulta_Url"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Actualizar/Eliminar Usarios" />
+            <item
+                    android:id="@+id/nav_consulta_gral_img_url"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Consulta Usuarios" />
+            <item
+                    android:id="@+id/nav_consulta_gral"
+                    android:enabled="false"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Eliminar Usario"
+                    android:visible="false" />
+            <item
+                    android:id="@+id/nav_consulta_gral_img"
+                    android:enabled="false"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Registrar Practica"
+                    android:visible="false" />
+            <item
+                    android:id="@+id/nav_consulta_individual"
+                    android:enabled="false"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Consultar Usuario"
+                    android:visible="false" />
+            <item
+                    android:id="@+id/Registrar_practicA"
+                    android:enabled="false"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Editar Practica"
+                    android:visible="false" />
+        </menu>
+    </item>
+
+
+    <item android:title="Practicas de Laboratorio">
+        <menu>
+            <item
+                    android:id="@+id/nav_desarrollador"
+                    android:enabled="false"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="Integrantes de equipo"
+                    android:visible="false" />
+            <item
+                    android:id="@+id/nav_Insertar_Practica"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="Insertar Practica" />
+            <item
+                    android:id="@+id/nav_ActualizarEditar_Practica"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="Actualizar/Eliminar Practica" />
+            <item
+                    android:id="@+id/navConsultar_Practica"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="Consultar Practica" />
+        </menu>
+    </item>
+
+</menu>

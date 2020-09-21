@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="co.quindio.sena.tutorialwebservice.fragments.DesarrolladorFragment"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="EQUIPO"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:layout_marginTop="30dp"
+                android:text="Abiagail\nRaul\nlizeth\nRaul\nMari de la Luz\nMauricio"
+                android:textSize="36sp" android:textColor="#110908"/>
+
+    </LinearLayout>
+
+</LinearLayout>

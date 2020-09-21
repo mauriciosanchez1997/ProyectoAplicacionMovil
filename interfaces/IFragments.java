@@ -1,0 +1,26 @@
+package com.example.webservicesimagealdo.interfaces;
+
+import com.example.webservicesimagealdo.fragments.ConsultarPracticaUrlEditarEliminar;
+import com.example.webservicesimagealdo.fragments.ConsultarPracticaUrlUsuarioEliminarEditar;
+import com.example.webservicesimagealdo.fragments.ConsultarUsuarioFragment;
+import com.example.webservicesimagealdo.fragments.ConsutarListausuarioImagenFragment;
+import com.example.webservicesimagealdo.fragments.DesarrolladorFragment;
+import com.example.webservicesimagealdo.fragments.ConsultaUsuarioUrlFragment;
+import com.example.webservicesimagealdo.fragments.FragementEstradisticasBarras;
+import com.example.webservicesimagealdo.fragments.RegistrarPractica;
+import com.example.webservicesimagealdo.fragments.RegistrarUsuarioFragment;
+import com.example.webservicesimagealdo.fragments.BienvenidaFragment;
+import com.example.webservicesimagealdo.fragments.ConsultaListaUsuarioImagenUrlFragment;
+import com.example.webservicesimagealdo.fragments.ConsultarListaUsuariosFragment;
+
+
+
+/**
+ * Created by CHENAO on 5/08/2017.
+ */
+
+public interface IFragments extends BienvenidaFragment.OnFragmentInteractionListener,DesarrolladorFragment.OnFragmentInteractionListener,
+        RegistrarUsuarioFragment.OnFragmentInteractionListener,ConsultarUsuarioFragment.OnFragmentInteractionListener,
+        ConsultarListaUsuariosFragment.OnFragmentInteractionListener,ConsutarListausuarioImagenFragment.OnFragmentInteractionListener,
+        ConsultaUsuarioUrlFragment.OnFragmentInteractionListener,ConsultaListaUsuarioImagenUrlFragment.OnFragmentInteractionListener, RegistrarPractica.OnFragmentInteractionListener, ConsultarPracticaUrlEditarEliminar.OnFragmentInteractionListener, ConsultarPracticaUrlUsuarioEliminarEditar.OnFragmentInteractionListener, FragementEstradisticasBarras.OnFragmentInteractionListener {
+}

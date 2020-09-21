@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/images"
+        android:orientation="vertical"
+        tools:context=".principal.LOGIN">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/candao" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/etqUsuario"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="USUARIO    "
+                android:textColor="@color/colorPrimary" />
+
+        <EditText
+                android:id="@+id/Usuario"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cajitas_texto"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/etqpass"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CONTRASEÑA"
+                android:textColor="@color/colorPrimary" />
+
+        <EditText
+                android:id="@+id/claveUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cajitas_texto"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/boton_entrar"
+                android:text="Ingresar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_salir"
+                android:text="Cancelar" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="vertical"/>
+
+
+</LinearLayout>
